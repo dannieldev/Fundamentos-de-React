@@ -1,5 +1,18 @@
-body{
-    margin: 0;
-    background-color: royalblue;
-    color: white;
+@charset "UTF-8";
+::placeholder {
+  color: #ffffff;
+}
+
+// @font-face {
+//   font-family: Muli;
+//   src: url("Muli/Muli-SemiBold.ttf");
+// }
+* {
+  margin: 0px;
+  border: 1px solid green;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #8F57FD;
 }

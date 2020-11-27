@@ -1,0 +1,14 @@
+ /*CAROUSEL*/
+.carousel {
+    width: 95%;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+  }
+  
+  .carousel__container {
+    white-space: nowrap;
+    /*Para que los elementos esten alineados*/
+    margin: 30px 0px;
+    padding-bottom: 10px;
+  }
