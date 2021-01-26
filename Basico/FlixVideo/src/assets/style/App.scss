@@ -1,18 +1,17 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
 @charset "UTF-8";
 ::placeholder {
   color: #ffffff;
 }
 
-// @font-face {
-//   font-family: Muli;
-//   src: url("Muli/Muli-SemiBold.ttf");
-// }
 * {
   margin: 0px;
   border: 1px solid green;
 }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: $theme-font;
   background-color: #8F57FD;
 }
